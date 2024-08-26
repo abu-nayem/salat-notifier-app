@@ -1,0 +1,1 @@
+# salat-notifier-app
