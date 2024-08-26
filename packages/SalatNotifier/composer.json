@@ -1,0 +1,15 @@
+{
+    "name": "hp/salat-notifier",
+    "autoload": {
+        "psr-4": {
+            "Hp\\SalatNotifier\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abu Nayem",
+            "email": "70249427+abu-nayem@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
