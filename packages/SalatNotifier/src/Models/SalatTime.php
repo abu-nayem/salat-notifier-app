@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class SalatTime extends Model
 {
     use HasFactory;
-    protected $fillable = ['fajr', 'dhuhr', 'asr', 'maghrib', 'isha'];
+    protected $fillable = ['type', 'time'];
 }

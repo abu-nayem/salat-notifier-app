@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c528f7756d709ea71a5b731f61a21c8e",
+    "content-hash": "bd8fd5c10d41331aa6abb1084386e5fa",
     "packages": [
         {
             "name": "brick/math",
@@ -1049,6 +1049,31 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "hp/salat-notifier",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/SalatNotifier",
+                "reference": "6b26b5cb92a0674b5a7093fc4b099b403110bec6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hp\\SalatNotifier\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Abu Nayem",
+                    "email": "70249427+abu-nayem@users.noreply.github.com"
+                }
+            ],
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         },
         {
             "name": "laravel/framework",
@@ -8257,7 +8282,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "hp/salat-notifier": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

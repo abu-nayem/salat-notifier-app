@@ -1,5 +1,7 @@
 {
     "name": "hp/salat-notifier",
+    "minimum-stability": "dev",
+
     "autoload": {
         "psr-4": {
             "Hp\\SalatNotifier\\": "src/"

@@ -18,6 +18,8 @@ return new class extends Migration
             $table->time('asr');
             $table->time('maghrib');
             $table->time('isha');
+            $table->time('type');
+            $table->time('time');
             $table->timestamps();
         });
     }
