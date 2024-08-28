@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('salat_times', function (Blueprint $table) {
             $table->id();
-            $table->time('fajr');
-            $table->time('dhuhr');
-            $table->time('asr');
-            $table->time('maghrib');
-            $table->time('isha');
+            $table->time('fajr')->nullable();
+            $table->time('dhuhr')->nullable();
+            $table->time('asr')->nullable();
+            $table->time('maghrib')->nullable();
+            $table->time('isha')->nullable();
             $table->time('type');
             $table->time('time');
             $table->timestamps();
