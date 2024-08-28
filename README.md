@@ -21,7 +21,7 @@
 composer require hp/salat-notifier:dev-main
 ## Publish the package's configuration and run the migrations:
 php artisan migrate
-## CRUD Operation got this url
+## CRUD Operation go to this url
 www.yourdomain.com/salat-times
 
 ## Or Use Laravel's Tinker to test CRUD operations:
